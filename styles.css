@@ -15,5 +15,6 @@ body {
 }
 #img {
     display: block;
+    position: relative;
     width: 500px;
 }
