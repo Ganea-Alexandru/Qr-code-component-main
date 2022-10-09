@@ -14,5 +14,6 @@ body {
     align-items: center;
 }
 #img {
-    width: 300px;
+    display: block;
+    width: 500px;
 }
