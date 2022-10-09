@@ -4,3 +4,6 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+#qr-code {
+    width: 100%;
+}
