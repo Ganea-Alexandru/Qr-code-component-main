@@ -4,20 +4,43 @@
 }
 html {
     height: 100%;
-    margin: 5rem;
-    border: 0.2rem solid grey;
 }
 body {
+    background-color: hsl(212, 45%, 89%);
+    padding: 0 24rem;
+    font-family: 'Outfit', sans-serif;
     height: 100%;
     border: 0.2rem solid grey;
 }
-body, #img {
+body, #content, #img {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#img, #picture {
-    width: 100%;
-    height: 100%;
+#content {
+    border-radius: 2.5rem;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 100%);
+}
+#picture {
+    border-radius: 1.5rem;
+    margin: 0 0 3rem;
+}
+#information1 {
+    margin: 0 0 3rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+#information2 {
+    margin: 0 0 3rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+#challenge-information, #coded-information {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
 }
